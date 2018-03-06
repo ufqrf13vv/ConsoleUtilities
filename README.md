@@ -8,6 +8,7 @@ In new directory each file is copied to a folder with the name of the first lett
 2. enter the path to the source folder `example: -f d:/folder`
 3. enter the path to the new folder `example: -t d:/newfolder`
 4. enter the parametr that allow to delete source folder. You can choose Yes(y)/No(n). `example: -d y`
+
 `example: node server.js -f d:/folder -t d:/newfolder -d y`
 
 [Link](https://github.com/ufqrf13vv/console_utilities/tree/files)

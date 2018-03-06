@@ -1,5 +1,5 @@
 {
-  "name": "copy-sort_files",
+  "name": "CopySortFiles",
   "version": "1.0.0",
   "description": "copy&sort files",
   "main": "server.js",
