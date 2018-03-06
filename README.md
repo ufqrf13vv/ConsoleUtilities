@@ -10,4 +10,4 @@ In new directory each file is copied to a folder with the name of the first lett
 4. enter the parametr that allow to delete source folder. You can choose Yes(y)/No(n). `example: -d y`
 `example: node server.js -f d:/folder -t d:/newfolder -d y`
 
-[Link](http://webdesign.ru.net)
+[Link](https://github.com/ufqrf13vv/console_utilities/tree/files)
