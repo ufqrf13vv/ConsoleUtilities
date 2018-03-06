@@ -1,0 +1,21 @@
+{
+  "name": "copy-sort_files",
+  "version": "1.0.0",
+  "description": "copy&sort files",
+  "main": "server.js",
+  "author": "mragulin",
+  "scripts": {
+    "start": "nodemon run server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "yargs": "^11.0.0"
+  },
+  "devDependencies": {
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
