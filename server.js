@@ -18,12 +18,16 @@ const argv = yargs
     .alias('d', 'delete')
     .argv;
 
-//  Чтение и копирование файлов в новую папку
-readFiles(argv.f, argv.t);
+async function start() {
+    //  Чтение и копирование файлов в новую папку
+    await readFiles(argv.f, argv.t);
 
-//  Удаление исходной папки
-if (argv.d == 'y') {
-    deleteFolder(argv.f);
+    //  Удаление исходной папки
+    if (argv.d == 'y') {
+        await deleteFolder(argv.f);
+    }
+
+    console.log('Application complete!');
 }
 
-console.log('Application complete!');
+start();
