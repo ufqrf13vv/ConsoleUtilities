@@ -17,7 +17,7 @@ const readFiles = (directory, newDirectory) => {
             readFiles(filePath, newDir);
         } else {
             let newFolderName = file.toString().charAt(0).toUpperCase();
-            let newFolderPath = path.normalize(`${newDir}/${newFolderName}`);
+            let newFolderPath = path.join(newDir, newFolderName);
 
             if (!fs.existsSync(newFolderPath)) {    //  создаём новые папки с именем первого заглавного символа из названия файлов
                 fs.mkdirSync(newFolderPath);
