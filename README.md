@@ -21,3 +21,9 @@ Stopping the console output of sending time after a while and ending the server 
 of the shutdown in UTC format to the client.
 All parametres you enter in the console when you start app.
 #### Run utility
+1. node server.js
+2. enter time of interval and time of the end `example: -t 1 10`
+
+`example: node server.js -t 1 10`
+
+[Link](https://github.com/ufqrf13vv/console_utilities/tree/time)
