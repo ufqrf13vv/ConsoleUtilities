@@ -1,0 +1,15 @@
+{
+  "name": "ConsoleTime",
+  "version": "1.0.0",
+  "description": "App outputs UTC time in the console",
+  "main": "server.js",
+  "author": "mragulin",
+  "scripts": {
+    "start": "nodemon run server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+  }
+}
